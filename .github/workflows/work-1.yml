@@ -1,0 +1,13 @@
+name: work-1
+on:
+  push:
+    branches:
+    - master
+jobs:
+  hi:
+    runs-on: ubuntu-latest
+    steps:
+    - name: HI1
+      run: echo "HI1"
+    - name: HI2
+      run: echo "HI2"
